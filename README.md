@@ -1,27 +1,60 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GitHub Finder
 
-Currently, two official plugins are available:
+Projeto criado utilizando React e TypeScript, o site é uma dashboard onde você pode esta pesquisando qualquer perfil do GitHub que ele ira mostrar o perfil junto com os seguidores e pessoas que são seguidas pelo perfil, e também irar mostrar os projeto que o perfil tem no seu GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Stack utilizada
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Front-end:** React, TypeScript
 
-- Configure the top-level `parserOptions` property like this:
+## Imagens
+<img src="public/print-home.png" alt="">
+<img src="public/print-projetos.png" alt="">
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://link-para-o-projeto
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+
+## Etiquetas
+
+Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Autores
+
+- [@AlbericoJr](https://www.github.com/albericojr)
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
